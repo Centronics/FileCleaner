@@ -1,0 +1,22 @@
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\bin\Release\FileCleaner.exe.config
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\bin\Release\FileCleaner.exe
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\bin\Release\FileCleaner.pdb
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Release\FileCleaner.Form1.resources
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Release\FileCleaner.MyProgram.resources
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Release\FileCleaner.Properties.Resources.resources
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Release\FileCleaner.Res.resources
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Release\GenerateResource-ResGen.read.1.tlog
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Release\GenerateResource-ResGen.write.1.tlog
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Release\FileCleaner.exe
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Release\FileCleaner.pdb
+D:\Программы\Системы программирования\C#\FileCleaner\FileCleaner\bin\Release\FileCleaner.exe.config
+D:\Программы\Системы программирования\C#\FileCleaner\FileCleaner\obj\Release\FileCleaner.exe
+D:\Программы\Системы программирования\C#\FileCleaner\FileCleaner\obj\Release\FileCleaner.pdb
+D:\Программы\Системы программирования\C#\FileCleaner\FileCleaner\bin\Release\FileCleaner.exe
+D:\Программы\Системы программирования\C#\FileCleaner\FileCleaner\bin\Release\FileCleaner.pdb
+D:\Программы\Системы программирования\C#\FileCleaner\FileCleaner\obj\Release\FileCleaner.Form1.resources
+D:\Программы\Системы программирования\C#\FileCleaner\FileCleaner\obj\Release\FileCleaner.MyProgram.resources
+D:\Программы\Системы программирования\C#\FileCleaner\FileCleaner\obj\Release\FileCleaner.Properties.Resources.resources
+D:\Программы\Системы программирования\C#\FileCleaner\FileCleaner\obj\Release\FileCleaner.Res.resources
+D:\Программы\Системы программирования\C#\FileCleaner\FileCleaner\obj\Release\FileCleaner.csproj.GenerateResource.Cache

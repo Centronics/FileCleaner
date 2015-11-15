@@ -1,0 +1,14 @@
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\bin\Debug\FileCleaner.exe
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\bin\Debug\FileCleaner.pdb
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Debug\FileCleaner.Form1.resources
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Debug\FileCleaner.Properties.Resources.resources
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Debug\FileCleaner.exe
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Debug\FileCleaner.pdb
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Debug\FileCleaner.MyProgram.resources
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\obj\Debug\FileCleaner.Res.resources
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\bin\Debug\FileCleaner.exe.config
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\bin\Debug\FileCleaner.exe.CodeAnalysisLog.xml
+C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\bin\Debug\FileCleaner.exe.lastcodeanalysissucceeded

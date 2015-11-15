@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner\bin\Debug\FileCleaner.exe">
+   <Modules>
+    <Module Name="filecleaner.exe">
+     <Namespaces>
+      <Namespace Name="FileCleaner">
+       <Types>
+        <Type Name="Form1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#button1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2011-08-01 15:32:27Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.cs" Line="34">Метод 'Form1.button1_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Вы пытаетесь выбрать папку, очистка которой приведёт к удалению другой выбранной...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.cs" Line="40">Метод 'Form1.button1_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Данная папка уже добавлена в список папок или исключений!".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button2_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2011-08-01 15:32:27Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.cs" Line="64">Метод 'Form1.button2_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Не вижу смысла добавлять исключение, если оно не относится с добавленным папкам....".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.cs" Line="69">Метод 'Form1.button2_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Эта папка уже добавлена в исключения!".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button3_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.MessageBox.Show(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2011-08-01 15:32:27Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.cs" Line="92">Метод 'Form1.button3_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Путь данной папки некорректен, т.к. он составляет часть пути уже выбранного искл...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.cs" Line="97">Метод 'Form1.button3_Click(object, EventArgs)' передает строку-литерал, как параметр "text" при вызове 'MessageBox.Show(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Такая папка уже добавлена либо в исключения, либо в выбранные папки!".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#button4_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Ликвидировать объекты перед потерей области" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2011-08-01 15:32:27Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.cs" Line="157">В методе 'Form1.button4_Click(object, EventArgs)' объект 'mp' не уничтожается во всех возможных путях исключений. Следует вызвать метод System.IDisposable.Dispose для объекта 'mp' до того, как все ссылки на него будут находиться вне области действия.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2011-08-01 15:32:27Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="79">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "3".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="241">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "FileCleaner".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="71">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Выберите папки для очистки".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="110">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Выбранные папки:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="171">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Выход".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="161">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Добавить папку".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="151">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Добавить файл".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="127">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Исключения:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="186">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "О программе...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="59">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Обзор папок...".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="196">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Удалить папку".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="206">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Удалить элемент".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="90">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Частота очистки:".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="100">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "дней (не более 30)".</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.NotifyIcon.set_Text(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2011-08-01 15:32:27Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="Form1.Designer.cs" Line="177">Метод 'Form1.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'NotifyIcon.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "FileCleaner".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MyProgram" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2011-08-01 15:32:27Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="MyProgram.cs" Line="14">Метод 'MyProgram.MyProgram()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Версия ".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="MyProgram.cs" Line="12">Метод 'MyProgram.MyProgram()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "О ".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2011-08-01 15:32:27Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="MyProgram.Designer.cs" Line="150">Метод 'MyProgram.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "&amp;ОК".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="MyProgram.Designer.cs" Line="167">Метод 'MyProgram.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "MyProgram".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="MyProgram.Designer.cs" Line="113">Метод 'MyProgram.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Авторские права".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="MyProgram.Designer.cs" Line="101">Метод 'MyProgram.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Версия".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="MyProgram.Designer.cs" Line="125">Метод 'MyProgram.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Название организации".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="MyProgram.Designer.cs" Line="89">Метод 'MyProgram.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Название продукта".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\Users\Администратор\Desktop\FileCleaner\FileCleaner" File="MyProgram.Designer.cs" Line="140">Метод 'MyProgram.InitializeComponent()' передает строку-литерал, как параметр "value" при вызове 'Control.Text.set(string)'. Вместо этого выполните поиск следующей строки (строк) в таблице источника: "Описание".</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Ликвидировать объекты перед потерей области" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Ликвидировать объекты перед потерей области</Name>
+   <Description>Если освобождаемый объект не высвобождается явно до того, как все ссылки на него оказываются вне области имен, объект будет высвобожден в некоторый заранее не определенный момент, когда сборщик мусора запустит завершающий метод объекта. Так как может возникнуть событие исключения, препятствующее выполнению метода завершения объекта, объект будет ликвидирован в явной форме.</Description>
+   <Resolution Name="ExceptionEdge">В методе {0} объект {1} не уничтожается во всех возможных путях исключений. Следует вызвать метод System.IDisposable.Dispose для объекта {1} до того, как все ссылки на него будут находиться вне области действия.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Не передавать литералы в качестве локализованных параметров" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>Не передавать литералы в качестве локализованных параметров</Name>
+   <Description>Строки литералов, внедренные в исходный код, сложно локализировать. Избегайте передачи строк типа литерал в качестве аргументов в случаях, когда ожидается локализованная строка.</Description>
+   <Resolution Name="KnownValue">Метод {0} передает строку-литерал, как параметр "{1}" при вызове {2}. Вместо этого выполните поиск следующей строки (строк) в таблице источника: {3}.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Категория</String>
+  <String Key="Certainty">Достоверность</String>
+  <String Key="CollapseAll">Свернуть все</String>
+  <String Key="CheckId">ИД проверки</String>
+  <String Key="Error">Ошибка</String>
+  <String Key="Errors">ошибки</String>
+  <String Key="ExpandAll">Развернуть все</String>
+  <String Key="Help">Справка</String>
+  <String Key="Line">Строка</String>
+  <String Key="Messages">сообщения</String>
+  <String Key="LocationNotStoredInPdb">[расположение не сохранено в PDB]</String>
+  <String Key="Project">Проект</String>
+  <String Key="Resolution">Разрешение</String>
+  <String Key="Rule">Правило</String>
+  <String Key="RuleFile">Файл правил</String>
+  <String Key="RuleDescription">Описание правила</String>
+  <String Key="Source">Источник</String>
+  <String Key="Status">Состояние</String>
+  <String Key="Target">Цель</String>
+  <String Key="Warning">Предупреждение</String>
+  <String Key="Warnings">предупреждения</String>
+  <String Key="ReportTitle">Отчет по анализу кода</String>
+ </Localized>
+</FxCopReport>
